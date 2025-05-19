@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'
+            rel='stylesheet'>
+        <link rel="stylesheet" href="styles.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <script src="script.js"></script>
+        <title>Personal Portfolio</title>
+
+    </head>
+    <body>
+        <div class="head">
+            <a href="#home" class="logo">Rhiniell
+                <span>Columbres</span></a>
+
+            <i class="bx bx-menu" id="menu-icon"></i>
+
+            <div class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </div>
+
+        <section class="home" id="home">
+
+            <div class="home-content">
+                <h1>Hi, It's<span id="text-typing">
+                        Renz
+                    </span>
+                </h1>
+                <h3>I'm a
+                    <span class="input">
+                        Software Developer</span></h3>
+
+                <p>I am passionate about technology and eager to explore the world of
+                    programming, Web Development, and Software Developer. Constantly learning and
+                    improving my skills, I aim to create innovative solutions and make an impact in
+                    the tech industry.
+                </p>
+                <div class="social-icon">
+                    <a href="">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                    <a href="https://www.facebook.com/rhiniell.columbres" target="_blank">
+                        <i class='bx bxl-facebook-circle'></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </a>
+                </div>
+                <div class="btn-group">
+                    <a href="#" class="btn">Hire</a>
+                    <a href="#contact" class="btn">Contact</a>
+                </div>
+            </div>
+
+            <div class="home-img">
+                <div class="img-box">
+                    <img src="prot.png" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="about" id="about">
+
+            <div class="about-img">
+                <img src="prot.png" alt="">
+            </div>
+
+            <div class="about-content">
+                <h2>About
+                    <span>
+                        Me
+                    </span>
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt minima
+                    beatae autem quam non aut minus dolore eum eius totam. Nemo, nesciunt omnis.
+                    Consectetur recusandae sapiente quidem quos magnam officiis.</p>
+                <div class="btn-group">
+                    <a href="#" class="btn">Read More</a>
+                    <a href="#" class="btn">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill">
+                    <h3>HTML5</h3>
+                    <div class="skill-progress-bar">
+                        <div class="skill-progress" style="width: 65%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>CSS3</h3>
+                    <div class="skill-progress-bar">
+                        <div class="skill-progress" style="width: 50%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="skill-progress-bar">
+                        <div class="skill-progress" style="width: 25%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="heading">My
+                <span>Services</span></h2>
+
+            <div class="service-container">
+
+                <div class="service-box">
+                    <div class="service-info">
+                        <i class="fas fa-code"></i>
+                        <h4>Web Development</h4>
+                        <p>Creating responsive websites using HTML, CSS, and JavaScript. Simple landing
+                            pages and UI layouts.</p>
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-info">
+                        <i class="fas fa-laptop-code"></i>
+                        <h4>Software Development</h4>
+                        <p>Building basic desktop applications using Java or Python. Great for simple
+                            school or hobby projects.</p>
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-info">
+                        <i class="fas fa-tools"></i>
+                        <h4>Technical Skills</h4>
+                        <p>UI design (Canva/Figma), debugging code, Git & GitHub basics, and
+                            command-line navigation.</p>
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-info">
+                        <i class="fas fa-users"></i>
+                        <h4>Soft Skills</h4>
+                        <p>Problem-solving, teamwork, time management, and a willingness to learn and
+                            improve continuously.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact
+                <span>Me</span></h2>
+            <form action="">
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name" name="" id="">
+                        <input type="email" placeholder="Email" name="" id="">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" placeholder="Phone No." name="" id="">
+                    </div>
+                </div>
+                <div class="input-box2">
+                    <textarea name="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+                </div>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <div class="social-icon">
+                <a href="">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+                <a href="">
+                    <i class='bx bxl-instagram-alt'></i>
+                </a>
+            </div>
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="#Skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <p class="copyright">
+                Columbres Rhiniell | All Rights Reserved
+            </p>
+        </footer>
+
+        <!-- Include Typed.js -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <!-- Initialize it -->
+        <script>
+            var typed = new Typed(".input", {
+                strings: [
+                    " Software Developer ", " Web Developer "
+                ],
+                typeSpeed: 70,
+                backSpeed: 25,
+                loop: true
+            });
+        </script>
+
+    </body>
+</html>
